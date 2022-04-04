@@ -48,9 +48,9 @@ def main():
     if a==1:
         
         hp = statsc.pokestats.statReturnHP(base1,iv,ev,lvl)
-        ostat = statsc.pokestats.statReturnOtherStat(base1,iv,ev,lvl,nature)
+        otherstat = statsc.pokestats.statReturnOtherStat(base1,iv,ev,lvl,nature)
         print("HP is ", hp)
-        print("Other Stats is", ostat, '\n')
+        print("Other Stats is", otherstat, '\n')
 
         option_menu()
 
